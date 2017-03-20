@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titlePadding">4dp</dimen>
+    <dimen name="titleTextSize">48sp</dimen>
+    <dimen name="infoTextSize">30sp</dimen>
+    <dimen name="infoPadding">12dp</dimen>
+    <dimen name="socialPadding">8dp</dimen>
+    <dimen name="headerHeight">200dp</dimen>
+    <dimen name="sideViewWidth">120dp</dimen>
+    <dimen name="bottomViewHeight">100dp</dimen>
+    <dimen name="socialBottomMargin">50dp</dimen>
+    <dimen name="infoIconPadding">6dp</dimen>
+    <dimen name="infoViewTopMargin">200dp</dimen>
+    <dimen name="landHeaderHeight">150dp</dimen>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.onelifeonelove.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/headerHeight">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/header_img_desc"
+            android:scaleType="centerCrop"
+            android:src="@drawable/header" />
+
+        <TextView
+            style="@style/TitleTextView"
+            android:id="@+id/title1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/title1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottomViewHeight"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimaryLight" />
+
+        <View
+            android:layout_width="@dimen/sideViewWidth"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            style="@style/TitleTextView"
+            android:id="@+id/title2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/title2" />
+
+        <LinearLayout
+            android:id="@+id/infoLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/infoViewTopMargin"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    style="@style/InfoIconStyle"
+                    android:contentDescription="@string/info_icon"
+                    android:src="@drawable/phoneicon"/>
+                <ImageView
+                    style="@style/InfoIconStyle"
+                    android:contentDescription="@string/info_icon"
+                    android:src="@drawable/mailicon"/>
+                <ImageView
+                    style="@style/InfoIconStyle"
+                    android:contentDescription="@string/info_icon"
+                    android:src="@drawable/locationicon"/>
+                <ImageView
+                    style="@style/InfoIconStyle"
+                    android:contentDescription="@string/info_icon"
+                    android:src="@drawable/webicon"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/InfoTextView"
+                    android:text="@string/phone" />
+                <TextView
+                    style="@style/InfoTextView"
+                    android:text="@string/email" />
+                <TextView
+                    style="@style/InfoTextView"
+                    android:text="@string/address"/>
+                <TextView
+                    style="@style/InfoTextView"
+                    android:text="@string/website" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/socialBottomMargin"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:orientation="horizontal">
+            <ImageView
+                style="@style/SocialButton"
+                android:contentDescription="@string/social_button_desc"
+                android:src="@drawable/facebookicon"
+                android:background="@color/facebookBlue"/>
+            <ImageView
+                style="@style/SocialButton"
+                android:contentDescription="@string/social_button_desc"
+                android:src="@drawable/twittericon"
+                android:background="@color/twitterBlue"/>
+            <ImageView
+                style="@style/SocialButton"
+                android:contentDescription="@string/social_button_desc"
+                android:src="@drawable/pinteresticon"
+                android:background="@color/pinterestRed"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">One Life One Love</string>
+    <string name="header_img_desc">Header Image</string>
+    <string name="title1">One Life One Love</string>
+    <string name="title2">Tattoo Salon</string>
+    <string name="info_icon">Icon representing given info text</string>
+    <string name="phone">+36 70 542 648</string>
+    <string name="email">onelifetattoos@gmail.com</string>
+    <string name="address">5231 Fegyvernek, Virag 91.</string>
+    <string name="website">www.onelifeonelove.com</string>
+    <string name="social_button_desc">Icons representing social media sites</string>
+</resources>
