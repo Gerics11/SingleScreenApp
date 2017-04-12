@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //set title custom font
         TextView title1 = (TextView)findViewById(R.id.title1);
         Typeface customFont = Typeface.createFromAsset(getAssets(), "fonts/glossandbloom.ttf");
         title1.setTypeface(customFont);
